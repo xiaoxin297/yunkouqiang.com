@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="yunkouqiang.com">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <property name="context-root" value="yunkouqiang.com"/>
+    </wb-module>
+</project-modules>
