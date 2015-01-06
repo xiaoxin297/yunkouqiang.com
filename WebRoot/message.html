@@ -33,22 +33,19 @@
 					<!-- Header -->
 						<header id="header">
 							<div class="inner">
-							
 								<!-- Logo -->
 									<h1><a href="index.html" id="logo">云口腔</a></h1>
-								
 								<!-- Nav -->
 									<nav id="nav">
 										<ul>
 											<li><a href="index.html">首页</a></li>
-											<li class="current_page_item"><a href="register.html">注册</a></li>
+											<li><a href="register.html">注册</a></li>
 											<li><a href="index.html">登录</a></li>
-											<li><a href="message.html">留言</a></li>
+											<li  class="current_page_item"><a href="message.html">留言</a></li>
 											<li><a href="index.html">教程</a></li>
 											<li><a href="index.html">关于</a></li>
 										</ul>
 									</nav>
-							
 							</div>
 						</header>
 
@@ -66,19 +63,27 @@
 							
 									<article>
 										<header class="">
-											<h2>用户注册</h2>
-											<p>只要输入手机号码、密码就可快速注册，注册成功后直接登录即可使用云口腔管理系统</p>
+											<h2>留言</h2>
+											<p>亲，可以把您认为我们做的不好的地方、遇到的系统BUG反馈给我们，以便让我们更好的为您服务</p>
 										</header>
 										
 <!-- 										<span class="image featured"><img src="images/pic08.jpg" alt="" /></span> -->
 										
-										<form>
-											<strong></strong><input placeholder="手机号" name="phone" type="text"><br/>
-											<br/>
-											<strong></strong><input placeholder="密码" name="password" type="password" ><br/>
-											<br/>
-											<strong></strong><input placeholder="重复密码" name="repassword" type="password" ><br/><br/>
-											<input type="button" value="提交">
+										<form method="post" action="#">
+											<div class="row 50%">
+												<div class="6u"><input type="text" name="name" placeholder="电话" /></div>
+												<div class="6u"><input type="email" name="email" placeholder="邮箱" /></div>
+											</div>
+											<div class="row 50%">
+												<div class="12u"><textarea name="message" placeholder="填写您的意见" rows="6"></textarea></div>
+											</div>
+											<div class="row">
+												<div class="12u">
+													<ul class="actions">
+														<li><input type="submit" value="提交" /></li>
+													</ul>
+												</div>
+											</div>
 										</form>
 									</article>
 						
